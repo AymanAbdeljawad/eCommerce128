@@ -1,0 +1,235 @@
+/*start main body*/
+body {
+    background-color: #F4F4F4;
+}
+
+
+table{
+    font-weight: normal !important;
+    font-size: 12px !important;
+    text-align: left !important;
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+form input {
+    font-size: 16px !important;
+    padding: 1px 10px !important;
+}
+form input[type="file"]{
+    padding: 2.5px !important;
+}
+
+/*end main body*/
+
+/*start login form*/
+.login {
+    width: 450px;
+    margin: 100px auto;
+}
+
+/*end login form*/
+
+
+/*start bootstrip edite*/
+
+.navbar-brand {
+    font-size: 1em;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link,
+.dropdown-menu {
+    background-color: #0984e3;
+}
+
+.dropdown-menu {
+    top: 114%;
+    left: -74px;
+    padding: 0px;
+    border-radius: 0rem;
+}
+
+.dropdown-item {
+    color: #ffffff;
+
+}
+
+.dropdown-divider {
+    margin: 0px;
+}
+
+/*end bootstrip edite*/
+
+
+/*start muber pages*/
+
+.title-muber {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #636e72;
+}
+
+.edit input[value] {
+    font-size: 18px;
+    color: #1b1e21;
+    font-weight: 500;
+}
+
+
+.my-form-group {
+    position: relative;
+}
+
+.astrix {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 25px;
+    color: red;
+}
+
+.show-class {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.main-table {
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    overflow-wrap: break-spaces;
+}
+
+.main-table tr:first-child th {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.main-table .btn {
+    padding: 3px 10px;
+}
+
+/*end muber pages*/
+
+
+/*start Dashboard page*/
+.home-dashboard .stst {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 1.2em;
+
+}
+
+.toggle-info{
+    cursor: pointer;
+}
+.toggle-info:hover{
+    color: #adb5bd;
+}
+
+.home-dashboard .stst a{
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+.home-dashboard .stst.st-muberes{background-color: #130f40}
+.home-dashboard .stst.st-panding{background-color: #e056fd}
+.home-dashboard .stst.st-item{background-color: #686de0}
+.home-dashboard .stst.st-comment{background-color: #30336b}
+
+.home-dashboard .stst span {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.dashboardTitle {
+    font-size: 70px;
+    color: #6c757d;
+}
+
+
+
+
+
+.litest .latest-span {
+    margin-top: 30px;
+}
+
+
+
+
+/*End Dashboard page*/
+
+
+/*start gategries page*/
+
+.card-body a{
+    padding: 1px 4px;
+}
+
+.card-body .cat-hid-edit,
+.card-body .cat-hid-dele{
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+.ed-del:hover .cat-hid-edit,
+.ed-del:hover .cat-hid-dele{
+    opacity: 1;
+
+}
+
+.card-body a.active {
+    color: #ff0000 !important;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 992px){
+    .card-body a {
+       padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+
+/*End gategries page*/
+/*start item page*/
+
+.main-table tr:first-child th {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+.control-th{
+    max-width:  30% ;
+}
+
+
+.main-table>tr>th{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.witing-approve {
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+/*End item page*/
